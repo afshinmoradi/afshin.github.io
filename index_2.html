@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        
+    <title>
+        afshin moradi's Portfolio
+    </title>
+    </head>
+
+
+
+
+    <body>
+    <!--About Section --> 
+   
+    <header>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Accomplishments">Accomplishments</a>
+            <a href="#Contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+        <h1 class="name">afshin MORADI</h1>
+    </header>
+
+
+    <main>
+
+     
+
+        <div id="About">
+            <figure>
+            <a href="https://scholar.google.com/citations?user=ZNptrZYAAAAJ&hl=en&authuser=1" target="_blank"> 
+            <img src="Picture_1.jpg"  width="150" height="200" alt="afshin"/></a>
+            <figcaption> AFSHIN </figcaption>
+            </figure>
+            <h2 id="About" class="heading uppercase About"> About</h2>
+            <p id="About" >
+                I am a <strong>data analyst</strong>. 
+                I am doing PhD at <em> QUT</em>.
+                I am interested to coding.
+            </p>
+        </div>
+
+
+        <!--skills Section -->
+        <div id="skills"></div>
+        <h3 id="Skills"  class = Skill>Skills</h3>
+        <h4>Research Skills</h4>
+        <ul class="list">
+            <li>Clinical data analysis</li>
+            <li>RNAseq analysis</li>
+            <li>GWAS data analysis</li>
+        </ul>
+        <h4>Interpersonal Skills</h4>
+        <ul class="list">
+            <li>Teamwork</li>
+            <li>Resposibility</li>
+        </ul>
+        <h4>Technical Skills Skills</h4>
+        <ul class="list">
+            <li>Programming : HTML, CSS, Javascript, python, R </li>
+            <li>Cloud computing </li>
+            <li>AWS solution architecture</li>
+        </ul>
+
+
+
+        <!--Accomplishments Section-->
+        <div>
+            <h2 class = "Accomplishments" > Accomplishments</h2>
+            <table>
+
+            <tr>   
+                <th  scope="col">Publications</th>
+                <th  scope="col">Awards</th>
+                <th  scope="col">Presentations</th>
+            </tr>
+
+            <tr>
+                <td>Content</td>
+                <td>Content</td>
+                <td>Content</td>
+            </tr>
+            </table>
+        </div>
+
+
+
+        <h3> coding examples </h3>
+        <link href="./quiz.html" type="html" rel="stylesheet"> 
+
+
+
+        <!--Contact Section-->
+        <div id="Contact">
+            <h2  id="Contactform" >Contact</h2>
+            <a href="https://scholar.google.com/citations?user=ZNptrZYAAAAJ&hl=en&authuser=1" target="_blank"> Google scholar</a>
+            <form>
+                <label for="name">Name*:</label>
+                <input type="text" name="name-text-field" id="name" required>
+                <br>
+              </form>
+              <br>
+              <br>
+              <form>
+                <label for="email">Email*:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern= “[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$”>
+                <br>
+                <br>
+              </form>
+              <br>
+              <form>
+                <label for="mobile">Mobile*:</label>
+                <br>
+                <input type="number" name="mobile" id="mobile"  pattern= “[0-9]” required>
+                <br>
+                <br>
+              <form>
+                <label for ="textarea">Leave your message below:*</label>  
+                <br>     
+                <textarea id="message" name="message" rows="5" cols="30" required>     
+                </textarea>     
+              </form>
+              <br>
+              <br>
+              <form>
+                <input type="submit" value="Submit">  
+              </form>
+            </div>
+        </main>
+              <footer>
+                <p>Email me at moradiafshin1365@gmail.com </p>   
+              </footer>   
+              
+
+              <script src="./nav.js"> </script>      
+
+</body>
+</html>
